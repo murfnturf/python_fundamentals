@@ -4,3 +4,11 @@ of a cylinder with a radius of 3.14 and a height of 5. Print out the result.
 
 
 '''
+import math
+
+rad = 3.14
+height = 5
+
+volume = math.pi * rad * rad * height
+
+print(volume)
