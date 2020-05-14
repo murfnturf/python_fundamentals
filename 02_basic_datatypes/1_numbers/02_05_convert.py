@@ -10,3 +10,15 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+
+print(float(5))
+
+print(int(4.0))
+
+print(4 // 2.0)
+
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+
+print(a*b)

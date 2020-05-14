@@ -7,3 +7,16 @@ Letter input: o
 Result: 4
 
 '''
+
+user_words = input("Type 5 different words: ")
+
+
+user_letter = input("Type a letter which exists in one of those words: ")
+
+
+result = user_words.find(user_letter)
+
+print(result)
+
+
+
