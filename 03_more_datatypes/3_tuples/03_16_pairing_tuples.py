@@ -11,3 +11,8 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+numbs = []
+
+prompt = input("Type in a series of numbers: ")
+new_numbs = int(prompt)
+numbs = new_numbs.split()

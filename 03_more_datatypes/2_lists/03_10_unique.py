@@ -6,3 +6,12 @@ unique_list = [55, 'hi', 4, 13]
 
 
 '''
+
+
+
+my_list = [45, 'dog', 87, True, 'antelop', 12, 90, 56, "cat", False, 43]
+
+
+
+# Make a set here
+

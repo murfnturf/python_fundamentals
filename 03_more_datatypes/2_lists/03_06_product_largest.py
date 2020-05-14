@@ -10,16 +10,33 @@ come back to this task after you have learned about loops)
 
 '''
 
-user_list = []
 
-n = int(input("Enter ten different numbers: "))
+numbers = input("Enter ten different numbers: ")
+new_numbers = numbers.split()
 
-for i in range(0, n):
-    numb = int(input())
+max_number = max(new_numbers)
 
-    user_list.append(numb)
+print(numbers)
 
-max_numb = max(user_list)
+print(new_numbers)
 
-print(user_list)
-print(max_numb)
+new_list = []
+
+for i in new_numbers:
+    x = int(i)
+    new_list.append(x)
+    #print(x)
+
+if len(new_list) != 10:
+    print ("You haven't entered exactly ten numbers: ")
+    #new_prompt = input("Add another number: ")
+    #print(new_prompt)
+
+
+print(new_list)
+
+
+print(max_number)
+max_number1 = max(new_list)
+print(max_number1)
+
